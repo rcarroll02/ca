@@ -1,0 +1,81 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: linear-gradient(135deg, rgb(250, 110, 170) 0%, #da71d7 100%);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 50px;
+  padding-bottom: 50px;
+}
+.highlight--word {
+  color: rgb(250, 204, 76);
+  font-style: italic;
+}
+.button--primary,
+.button--secondary {
+  background-color: rgb(252, 116, 116);
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+#button--secondary {
+  background-color: rgb(252, 116, 116);
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button--secondary {
+  pointer-events: none;
+}
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.button--primary:hover {
+  background-color: rgb(150, 90, 100);
+  transform: scale(1.15);
+}
+.button--secondary:hover {
+  background-color: rgb(150, 90, 100);
+  transform: scale(1.15);
+}
+.button--primary:active {
+  background-color: rgb(120, 70, 80);
+}
+.button--secondary:active {
+  background-color: rgb(120, 70, 80);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 2px solid white;
+  max-width: 100%; /* Keeps it responsive */
+}
