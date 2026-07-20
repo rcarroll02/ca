@@ -9,7 +9,8 @@ body {
   color: white;
   background: linear-gradient(135deg, rgb(250, 110, 170) 0%, #da71d7 100%);
   background-attachment: fixed;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 h1 {
   text-align: center;
