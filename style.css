@@ -16,7 +16,7 @@ h1 {
   text-align: center;
   font-size: 40px;
   font-family: "Courier New", Courier, monospace;
-  padding: 50px;
+  padding: 10px;
   padding-bottom: 50px;
 }
 .highlight--word {
@@ -104,4 +104,5 @@ img {
   border-radius: 10px;
   border: 2px solid white;
   max-width: 100%; /* Keeps it responsive */
+  margin-bottom: 20px;
 }
