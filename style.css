@@ -48,6 +48,7 @@ h1 {
 }
 
 .button--secondary {
+  -webkit-tap-highlight-color: transparent;
   pointer-events: none;
 }
 .button__container {
